@@ -95,7 +95,6 @@ roverControl raceTrack(const pixy_vector_s &pixy)
 			control.speed = 0.7f;
 			if(time_diff > 100000*3){
 				// Stopping if no vector is available
-				control.steer = 0.0f;
 				control.speed = SPEED_STOP;
 			}
 		}

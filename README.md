@@ -11,4 +11,5 @@ I implemented a geometric path-tracking controller based on the **Stanley** meth
 
 By dynamically adjusting steering based on these errors, the controller ensures **path accuracy** and **adaptive turning**. Created a simple linear equation for the vehicle's speed as a function of its steering, where both values should be calculated and returned within the interval [-1, +1]
 
+
 For more information about the firmware, please check the official website for NXPCUP
